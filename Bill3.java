@@ -15,7 +15,7 @@ public class Bill3 {
 		double bill = Math.ceil(Double.parseDouble(args[3]) / 3.0);
 		
 		//printing the answer
-		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 +": pay " + bill + "Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + bill + " Shekels each.");
 
 	}
 }
