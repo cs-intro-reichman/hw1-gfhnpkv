@@ -2,6 +2,8 @@
 // and prints them in increasing order.
 public class Ascend {
 	public static void main(String[] args) {
-		// Replace this comment with your code
+		// Reciving number and generating random numbers
+		int lim = Integer.parseInt(args[0]);
+		double n1 = Math.random();
 	}
 }

@@ -13,7 +13,22 @@ public class TimeFormat {
 		// Does the same with the minutes part of the input.
 		System.out.println(hours);
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
-        // Replace this comment with the rest of your code
 		System.err.println(minutes);
+
+		// checking AM or PM
+		String timezone = "AM";
+		if (hours > 12) {
+			timezone = "PM";
+			hours = hours - 12;
+		}
+		// adding ":" and 0 if needed
+		String sMinutes = "";
+		if (minutes < 10) {
+			sMinutes = ":0" + minutes;
+		} else {
+			sMinutes = ":" + minutes;
+		}
+
+		System.out.println(hours + sMinutes + timezone);
 	}
 }
