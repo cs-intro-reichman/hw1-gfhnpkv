@@ -12,7 +12,7 @@ public class Bill3 {
 
 		//printing the answer
 		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 +
-		 ": pay " + bill + "Shekels each.");
+							 ": pay " + bill + "Shekels each.");
 
 	}
 }
