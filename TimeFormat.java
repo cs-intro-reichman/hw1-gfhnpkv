@@ -19,7 +19,9 @@ public class TimeFormat {
 		String timezone = "AM";
 		if (hours >= 12) {
 			timezone = "PM";
-			hours = hours - 12;
+			if (hours != 12) {
+				hours = hours - 12;
+			}
 		}
 		// adding ":" and 0 if needed
 		String sMinutes = "";
