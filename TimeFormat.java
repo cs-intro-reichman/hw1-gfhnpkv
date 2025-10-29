@@ -29,6 +29,6 @@ public class TimeFormat {
 			sMinutes = ":" + minutes;
 		}
 
-		System.out.println(hours + sMinutes + timezone);
+		System.out.println(hours + sMinutes + " " + timezone);
 	}
 }
