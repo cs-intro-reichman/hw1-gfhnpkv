@@ -17,7 +17,7 @@ public class TimeFormat {
 
 		// checking AM or PM
 		String timezone = "AM";
-		if (hours > 12) {
+		if (hours >= 12) {
 			timezone = "PM";
 			hours = hours - 12;
 		}
