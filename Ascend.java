@@ -5,17 +5,17 @@ public class Ascend {
 		// Reciving number and generating random numbers
 		int input = Integer.parseInt(args[0]);
 		int limit = input + 1;
-		int n1 = (int) Math.random() * limit;
-		int n2 = (int) Math.random() * limit;
-		int n3 = (int) Math.random() * limit;
+		int n1 = (int) (Math.random() * limit);
+		int n2 = (int) (Math.random() * limit);
+		int n3 = (int) (Math.random() * limit);
 
 		// printing ordering printing
-		System.out.println(n1 + ' ' + n2 + ' ' + n3);
+		System.out.println(n1 + " " + n2 + " " + n3);
 		
 		int min = Math.min(n3, Math.min(n1, n2));
 		int max = Math.max(n3, Math.max(n1, n2));
 		int middle = n1 + n2 + n3 - min - max;
 
-		System.out.println(min + ' ' + middle + ' ' + max);
+		System.out.println(min + " " + middle + " " + max);
 	}
 }
