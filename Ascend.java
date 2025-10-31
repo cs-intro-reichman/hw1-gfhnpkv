@@ -9,13 +9,17 @@ public class Ascend {
 		int n2 = (int) (Math.random() * limit);
 		int n3 = (int) (Math.random() * limit);
 
-		// printing ordering printing
+		// printing numbers not in order
 		System.out.println(n1 + " " + n2 + " " + n3);
 		
+		//sorting number
 		int min = Math.min(n3, Math.min(n1, n2));
 		int max = Math.max(n3, Math.max(n1, n2));
 		int middle = n1 + n2 + n3 - min - max;
 
+		//printing ordered numbers
 		System.out.println(min + " " + middle + " " + max);
+
+		
 	}
 }
